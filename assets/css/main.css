@@ -3508,5 +3508,14 @@ input, select, textarea {
 			#footer {
 				padding: 2em 1em 2em 1em ;
 			}
+#honkai-star-rail-sparkle.gif {
+    position: fixed;      /* Fixa na tela */
+    bottom: 20px;         /* Distância do fundo */
+    left: 20px;           /* Distância da esquerda */
+    width: 100px;         /* Ajuste o tamanho */
+    height: auto;
+    z-index: 1000;        /* Fica acima do conteúdo */
+    pointer-events: none; /* Clique passa por cima do mascote */
+}
 
 	}
