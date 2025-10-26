@@ -466,10 +466,95 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 <img id="honkai-star-rail-sparkle" src="images/honkai-star-rail-sparkle.gif" alt="honkai-star-rail-sparkle">
+body {
+  margin:0;
+  font-family: Arial, sans-serif;
+  background:#111;
+  color:#fff;
+}
+
+header {
+  background:#e6004c;
+  padding:15px;
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+header .logo{
+  height:40px;
+}
+
+h1{
+  font-size:1.8em;
+  margin:0;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  gap:20px;
+  padding:20px;
+}
+
+.card{
+  background:#222;
+  border-radius:8px;
+  text-align:center;
+  padding:10px;
+}
+
+.card img{
+  width:100%;
+  border-radius:5px;
+}
+
+.btn{
+  display:inline-block;
+  background:#e6004c;
+  padding:8px 12px;
+  margin-top:10px;
+  border-radius:5px;
+  color:#fff;
+  text-decoration:none;
+}
+
+.chapter-list{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  padding:20px;
+}
+
+.chapter-btn{
+  display:block;
+  background:#e6004c;
+  padding:10px;
+  border-radius:5px;
+  color:#fff;
+  text-decoration:none;
+  text-align:center;
+}
+
+.chapter-nav{
+  display:flex;
+  justify-content:space-between;
+  padding:20px;
+}
+
+.chapter-nav button{
+  background:#e6004c;
+  color:#fff;
+  border:none;
+  padding:10px 15px;
+  border-radius:5px;
+  cursor:pointer;
+}
 
 	</body>
 
 </html>
+
 
 
 
